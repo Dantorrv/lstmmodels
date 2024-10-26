@@ -1,0 +1,97 @@
+* {
+    margin:0 auto;
+    padding: 0;
+}
+
+/* Estilos personalizados opcionales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3eeeeac;
+}
+
+/*Header*/
+
+.navbar {
+    background-color: #3c87f0;
+}
+
+.navbar-brand {
+    width: 85px;
+    height: 85px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav {
+    border-radius:5px;
+    width: 40%;
+
+}
+
+.navbar-nav .nav-item .nav-link {
+    text-decoration:dashed;
+    font-size: 24px;
+    background: #3C87F0;
+    color:#ffffff;
+    text-shadow: 
+    -2px -2px 1px rgba(0, 0, 0, 0.2), /* Primera sombra negra suave hacia arriba e izquierda */
+    -1px -1px 1px rgba(0, 0, 0, 0.3), /* Segunda sombra negra un poco más intensa */
+    2px 2px 2px rgba(255, 255, 255, 0.7), /* Sombra blanca para el brillo */
+    4px 4px 4px rgba(0, 0, 0, 0.2), /* Sombra negra más grande para un efecto de profundidad */
+    6px 6px 6px rgba(0, 0, 0, 0.1); /* Última sombra negra más difusa */
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #a5ecdbee;
+    background-color: #706d6d49;
+    border-radius: 5px;
+
+}
+
+/*Section Inicio*/
+.principal {
+    display: flex;
+}
+
+.banner{
+    text-align: center;
+}
+
+/*nosotros*/
+.normal {
+    padding: 10px;
+    text-align: center;
+}
+
+/*Section nosotros2*/
+.somos {
+    display:inline-flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.n {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.n .nosotros {
+    width: 500px;
+    height: 300px;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #3c87f0;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+

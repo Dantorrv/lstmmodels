@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Navegación</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style5.css" type="text/css">
+    <link rel="icon" type="image/ico" href="./images/faviconSTech.ico"/>
+</head>
+<body>
+    <header>
+        <!-- Menú de navegación con Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <img class="navbar-brand" src="./images/logo1.png"></img>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuNavegacion">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portafolio.html">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+
+    <section id="inicio" class="principal">
+      <div>
+        <h2>Bienvenidos a mi sitio web</h2>
+        <p>En este sitio encontrarás información sobre nuestra empresa y los servicios que ofrecemos.</p>
+        <img src="./images/img1.jpeg" alt="imagen" class="img1">
+      </div>
+      
+    </section>
+
+    <section id="nosotros" class="normal">
+      <div>
+        <h2>Contacto</h2>
+        <p>Somos una empresa dedicada a ofrecer soluciones tecnológicas innovadoras y eficientes para pequeñas y medianas empresas.</p>
+        <p>Contamos con un equipo altamente capacitado y comprometido con la satisfacción de nuestros clientes.</p>
+    </section>
+      </div>
+
+    </section> 
+    <section id="nosotros2" class="">
+        <div class="somos">
+            
+            <div class="n">
+                <h3>Contacto</h3>
+                <img src="./images/img5.jfif" alt="imagen" class="nosotros">
+            </div>
+            <div class="n">  
+                <h3>Contacto</h3>
+                <img src="./images/img8.jfif" alt="imagen" class="nosotros">
+            </div>
+            <div class="n">
+                <h3>Contacto</h3>
+                <img src="./images/img6.jfif" alt="imagen" class="nosotros">
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="info">
+      <h2>Contacto</h2>
+      <div class="contacto">
+      <form action="enviar_mensaje.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea><br>
+        <input type="submit" value="Enviar"><br>
+      </form>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <div class="footer">
+      <img class="navbar-brand" src="./images/logo1.png"></img>
+      <p>Todos los derechos reservados © 2023</p>
+    </div>
+  </footer>
